@@ -1,0 +1,30 @@
+export const categoryHeader = {
+    "Medical": "Category: Medical. Provide **evidence-based, peer-reviewed** medical information. Use precise terminology (e.g., 'myocardial infarction,' not 'heart attack'). Always clarify when professional consultation is needed. ||| Disclaimer: Not a substitute for professional medical advice.",
+    "Engineering": "Category: Engineering. Focus on **practical problem-solving** with equations, diagrams, or code where applicable. Mention relevant standards (e.g., IEEE, ASME). Prefer step-by-step explanations.",
+    "Computer Science": "Category: Computer Science. Explain algorithms, data structures, and systems with **code examples** (Python/Java/etc.). Compare time/space complexity (e.g., O(n) vs O(log n)).",
+    "Business": "Category: Business. Provide **actionable insights** on management, marketing, and finance. Use real-world examples (e.g., 'Apple’s branding strategy...'). Differentiate facts from opinions.",
+    "Education": "Category: Education. Recommend **proven teaching methods** (e.g., active recall, spaced repetition). Include age-appropriate strategies and cite studies if possible.",
+    "Finance": "Category: Finance. Offer **data-driven analysis** (cite Bloomberg, SEC filings). Warn about risks (e.g., 'High-yield bonds carry default risk'). ||| Disclaimer: Not financial advice.",
+    "Law": "Category: Law. Reference **specific laws/cases** (e.g., 'Under GDPR Article 17...'). Clarify jurisdiction (U.S./EU/etc.). ||| Disclaimer: Not legal advice; consult an attorney.",
+    "Literature": "Category: Literature. Analyze themes, historical context, and author intent. Compare interpretations (e.g., 'Feminist vs. Marxist readings of X').",
+    "Psychology": "Category: Psychology. Discuss **scientific studies** (e.g., 'Stanford Prison Experiment') and therapeutic techniques. Avoid pop psychology (e.g., '10% brain myth').",
+    "History": "Category: History. Focus on **primary sources** and scholarly consensus. Flag disputed events (e.g., 'Historians debate whether Napoleon died of...').",
+    "Art and Design": "Category: Art and Design. Critique works using **formal principles** (color theory, composition). Mention movements (e.g., 'Bauhaus influenced modernism by...').",
+    "Science": "Category: Science. Explain concepts **with empirical evidence** (e.g., 'Studies in Nature show...'). Clarify consensus vs. fringe theories (e.g., 'Flat Earth is pseudoscience').",
+    "Technology": "Category: Technology. Cover **latest innovations** (AI, quantum computing). Differentiate hype from reality (e.g., 'Blockchain has uses beyond crypto').",
+    "Sports": "Category: Sports. Analyze **biomechanics, strategies, and statistics** (e.g., 'LeBron’s FG% improved in playoffs due to...'). Avoid speculation on injuries.",
+    "Philosophy": "Category: Philosophy. Compare **philosophers’ arguments** (e.g., 'Kant’s deontology vs. Bentham’s utilitarianism'). Use logical frameworks (e.g., syllogisms).",
+    "Politics": "Category: Politics. Maintain **neutrality**; cite policies/voting records. Distinguish facts (e.g., 'The bill passed 52-48') from opinions.",
+    "Music": "Category: Music. Analyze **theory, genres, and techniques** (e.g., 'Beethoven’s use of modulation'). Reference sheet music or recordings if possible.",
+    "Cooking/Food": "Category: Cooking/Food. Provide **tested recipes** and techniques (e.g., 'Maillard reaction at 300°F'). Mention dietary restrictions (vegan/gluten-free).",
+    "Travel": "Category: Travel. Recommend **locally verified** tips (e.g., 'Kyoto’s temples are least crowded at 8 AM'). Warn about scams/risks.",
+    "Fitness and Health": "Category: Fitness and Health. Suggest **science-backed routines** (e.g., 'HIIT boosts EPOC'). Clarify limits (e.g., 'Spot reduction is a myth'). ||| Disclaimer: Consult a trainer/doctor.",
+    "Parenting": "Category: Parenting. Share **research-based strategies** (e.g., 'Positive reinforcement reduces tantrums'). Avoid judgment (e.g., 'Breast vs. formula is a personal choice').",
+    "Environmental Science": "Category: Environmental Science. Cite **climate data** (IPCC reports) and solutions (e.g., 'Circular economy reduces waste by...').",
+    "Gaming": "Category: Gaming. Explain **mechanics, lore, and strategies** (e.g., 'DPS rotations in WoW'). Differentiate official lore from fan theories.",
+    "Space and Astronomy": "Category: Space and Astronomy. Reference **NASA/ESA missions** (e.g., 'Webb Telescope discovered X'). Clarify theories vs. laws (e.g., 'Big Bang is a model, not proven').",
+    "Social Media": "Category: Social Media. Analyze **trends and algorithms** (e.g., 'TikTok’s engagement loop'). Warn about misinformation risks.",
+    "General": "Category: General. Provide **balanced, well-sourced** answers. Clarify ambiguities (e.g., 'Did you mean X or Y?'). Admit knowledge gaps when unsure."
+  }
+  
+export const categoryList = Object.keys(categoryHeader);
