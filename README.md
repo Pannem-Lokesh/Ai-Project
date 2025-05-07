@@ -1,13 +1,21 @@
 🧠 AI Category-Based Chatbot using Mistral API
+
 This is a web-based AI chatbot that provides contextual and in-depth responses based on the category selected by the user. Built with a clean UI, it leverages the Mistral API to generate intelligent responses tailored to topics such as Medical, Engineering, Psychology, Gaming, Cooking, and many more.
 
 ✨ Features
+
 🧠 AI-powered replies using Mistral's large language model
+
 🏷️ Category-based filtering: Choose from 25+ categories like Science, History, Travel, Technology, etc.
+
 💬 Dynamic chatbot interface: Ask any question and get answers tailored to the selected topic
+
 🌙 Dark Mode UI (as shown in the screenshot)
+
 ⚡ Fast and responsive interaction with the Mistral API
+
 🚀 Tech Stack
+
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js (or similar, depending on your setup)
 API: Mistral AI API
